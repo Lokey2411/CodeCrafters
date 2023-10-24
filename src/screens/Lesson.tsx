@@ -1,5 +1,5 @@
 import { SafeAreaView, StyleSheet } from "react-native";
-import React from "react";
+import React, { useEffect } from "react";
 import { Box, Column, ScrollView } from "native-base";
 import CardList from "../components/Main/CardList";
 import MainBackground from "../components/HomeTab/MainBackground";
@@ -7,6 +7,7 @@ import HomeHeader from "../components/Header/HomeHeader";
 import { createLessons, lessons } from "../constansts/items";
 
 const Lesson = () => {
+	useEffect(createLessons, []);
 	return (
 		<ScrollView>
 			<MainBackground>
