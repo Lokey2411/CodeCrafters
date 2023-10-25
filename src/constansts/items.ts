@@ -718,7 +718,7 @@ export const lessons: CardProps[] = [
 			videoSource: "https://www.youtube.com/watch?v=ftIjeYFdfPk",
 		},
 		avata: {
-			uri: "https://i.ytimg.com/vi/DQrlh_PpaAA/maxresdefault.jpg9",
+			uri: "https://i.ytimg.com/vi/DQrlh_PpaAA/maxresdefault.jpg",
 		},
 	},
 	{

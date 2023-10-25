@@ -9,26 +9,19 @@ import { useIsFocused } from "@react-navigation/native";
 import { quizz } from "../constansts/items";
 
 const Quizz = () => {
-	const dispatch = useAppDispatch();
-	const isFocus = useIsFocused();
-	const quiz = useAppSelector((state) => state.quiz);
-	useEffect(() => {
-		// dispatch(clearUserAns());
-	}, [isFocus]);
-	return (
-		<MainBackground>
-			<HomeHeader title="Giải đố" />
-			<Column
-				mx={6}
-				flex={1}
-			>
-				<CardList
-					data={quiz}
-					isQuizz
-				/>
-			</Column>
-		</MainBackground>
-	);
+  const isFocus = useIsFocused();
+  const quiz = useAppSelector((state) => state.quiz);
+  useEffect(() => {
+    // dispatch(clearUserAns());
+  }, [isFocus]);
+  return (
+    <MainBackground>
+      <HomeHeader title="Giải đố" />
+      <Column mx={6} flex={1}>
+        <CardList data={quiz} isQuizz />
+      </Column>
+    </MainBackground>
+  );
 };
 
 export default Quizz;
