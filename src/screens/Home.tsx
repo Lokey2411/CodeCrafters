@@ -14,7 +14,7 @@ const Home = (props: Props) => {
     <MainBackground>
       <Box flex={1} justifyContent={"center"} alignItems={"center"}>
         <Image
-          source={require("../../assets/logo.png")}
+          source={require("../../assets/image/logo/logo.jpg")}
           alt="LOGO"
           resizeMode="contain"
           h={40}

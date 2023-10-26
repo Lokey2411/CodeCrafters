@@ -30,7 +30,7 @@ export default function Puzzle(props: Props) {
 		(nextPieces: PuzzlePieces, nextHidden: number | null): void => {
 			setPieces(nextPieces);
 			setHidden(nextHidden);
-			if (nextPieces !== ([0, 1, 2, 3, 4, 5, 6, 7, 8] as PuzzlePieces)) {
+			if (nextPieces === ([0, 1, 2, 3, 4, 5, 6, 7, 8] as PuzzlePieces)) {
 				toggleNoti();
 			}
 		},
@@ -63,7 +63,7 @@ export default function Puzzle(props: Props) {
 				padding={5}
 				textAlign={"center"}
 			>
-				Lorem ipsum dolor sit amet consectetur. Eget congue aenean massa enim dictum imperdiet.
+				Bạn sắp xếp những mảnh ghép sao cho đúng với hình ở dưới. Hoàn thành bạn sẽ được sang màn chơi khác.
 			</Text>
 			<NotificationBox
 				content="Chúc mừng bạn đã hoàn thành trò chơi. Nhấn TIẾP TỤC để sang ảnh mới"
