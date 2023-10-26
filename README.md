@@ -1,5 +1,5 @@
 # CodeCrafter
-![image](https://github.com/Lokey2411/CodeCrafters/assets/112533694/103d614a-5ac3-4ced-b005-72bc5f620593)
+![image](https://github.com/Lokey2411/CodeCrafters/assets/112533694/ba94b1eb-6ade-43d6-9c88-bae3024b5a15)
 
 
 ## Demo App
