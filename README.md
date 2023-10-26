@@ -1,6 +1,6 @@
 # CodeCrafter
 
-<img src="image/logo.png"/>
+<image src="images/logo.png">
 
 ## Demo App
 
@@ -27,6 +27,16 @@ The CodeCrafters app makes it easy for children to grasp programming concepts an
 -   Quiz
 
 ## Screenshots
+
+<p float='left'>
+<img src="images/home.png" width="45%" alt='screen1'>
+<img src="images/VideoHome.jpg" width="45%" alt='screen1'>
+<img src="images/Video.jpg" width="45%" alt='screen1'>
+<img src="images/QuizHome.jpg" width="45%" alt='screen1'>
+<img src="images/QuizAns.jpg" width="45%" alt='screen1'>
+<img src="images/PuzzleHome.jpg" width="45%" alt='screen1'>
+<img src="images/Puzzle.jpg" width="45%" alt='screen1'>
+</p>
 
 ## Getting Started
 
