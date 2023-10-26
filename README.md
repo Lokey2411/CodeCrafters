@@ -27,13 +27,10 @@ The CodeCrafters app makes it easy for children to grasp programming concepts an
 -   Quiz
 
 ## Screenshots
-![image](https://github.com/Lokey2411/CodeCrafters/assets/112533694/bc0b9ef4-f5fd-44bc-a9e6-62e3599e6963)
-![image](https://github.com/Lokey2411/CodeCrafters/assets/112533694/205ef584-9236-48ed-b0dc-3319fba4f2d6)
-![image](https://github.com/Lokey2411/CodeCrafters/assets/112533694/8f1aabf2-1d5d-4c79-9438-4730ad93bb46)
-![image](https://github.com/Lokey2411/CodeCrafters/assets/112533694/ee94d148-740a-4760-89d4-f2f635172e23)
-![image](https://github.com/Lokey2411/CodeCrafters/assets/112533694/a2a31110-df16-42f1-adfe-9d8c58f9fbe1)
-![image](https://github.com/Lokey2411/CodeCrafters/assets/112533694/90fbffaa-b179-465a-810d-726a084abe71)
-![image](https://github.com/Lokey2411/CodeCrafters/assets/112533694/3bcec0ae-f4c9-415f-9458-3048c3fa453e)
+<p float='left'>
+<img src="images/home.png" width="45%" alt='screen1'>
+<img src="images/quiz.png" width="45%" alt='screen1'>
+</p>
 
 
     
