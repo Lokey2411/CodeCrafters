@@ -9,36 +9,44 @@ import { RootStackParams } from "../navigations/config";
 type Props = {} & NativeStackScreenProps<RootStackParams, "Home">;
 
 const Home = (props: Props) => {
-  const { navigation } = props;
-  return (
-    <MainBackground>
-      <Box flex={1} justifyContent={"center"} alignItems={"center"}>
-        <Image
-          source={require("../../assets/image/logo/logo.jpg")}
-          alt="LOGO"
-          resizeMode="contain"
-          h={40}
-        />
-        <VStack width={"60%"} mt={12} space={4}>
-          <CustomBtn
-            text={"Bài học"}
-            handleBtn={() => navigation.navigate("Lesson")}
-            height={10}
-          />
-          <CustomBtn
-            text={"Giải đố"}
-            handleBtn={() => navigation.navigate("Quiz")}
-            height={10}
-          />
-          <CustomBtn
-            text={"Trò chơi xếp hình"}
-            handleBtn={() => navigation.navigate("Game")}
-            height={10}
-          />
-        </VStack>
-      </Box>
-    </MainBackground>
-  );
+	const { navigation } = props;
+	return (
+		<MainBackground>
+			<Box
+				flex={1}
+				justifyContent={"center"}
+				alignItems={"center"}
+			>
+				<Image
+					source={require("../../assets/logo.png")}
+					alt="LOGO"
+					resizeMode="contain"
+					h={40}
+				/>
+				<VStack
+					width={"60%"}
+					mt={12}
+					space={4}
+				>
+					<CustomBtn
+						text={"Bài học"}
+						handleBtn={() => navigation.navigate("Lesson")}
+						height={10}
+					/>
+					<CustomBtn
+						text={"Giải đố"}
+						handleBtn={() => navigation.navigate("Quiz")}
+						height={10}
+					/>
+					<CustomBtn
+						text={"Trò chơi xếp hình"}
+						handleBtn={() => navigation.navigate("Game")}
+						height={10}
+					/>
+				</VStack>
+			</Box>
+		</MainBackground>
+	);
 };
 
 export default Home;
