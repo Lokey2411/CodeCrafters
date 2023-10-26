@@ -28,8 +28,6 @@ The CodeCrafters app makes it easy for children to grasp programming concepts an
 
 ## Screenshots
 
-    ![Alt text](images/Puzzle.jpg)
-
 ## Getting Started
 
 ### Prerequisites
