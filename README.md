@@ -19,6 +19,8 @@ The CodeCrafters app makes it easy for children to grasp programming concepts an
 - Quiz
 ## Screenshots
 
+## Getting Started
+
 ### Prerequisites
 
 - Node.Js: https://nodejs.org/en
@@ -36,3 +38,4 @@ git clone https://github.com/akiyamahaa/expo-tech-app.git
 cd expo-tech-app
 yarn
 yarn start
+
