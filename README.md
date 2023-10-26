@@ -1,6 +1,6 @@
 # CodeCrafter
+![image](https://github.com/Lokey2411/CodeCrafters/assets/112533694/103d614a-5ac3-4ced-b005-72bc5f620593)
 
-<img src="image/logo.png"/>
 
 ## Demo App
 
