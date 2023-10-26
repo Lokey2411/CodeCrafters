@@ -54,7 +54,7 @@ The CodeCrafters app makes it easy for children to grasp programming concepts an
 
 ```bash
 git clone https://github.com/Lokey2411/CodeCrafters.git
-cd expo-tech-app
+cd CodeCrafters
 yarn
 yarn start
 
